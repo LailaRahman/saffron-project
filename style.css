@@ -1,0 +1,200 @@
+:root {
+  --btn-color: rgb(178, 138, 185); /* Replace with your desired color */
+  --btn-hover-color: rgb(153, 150, 159); /* Optional for hover effects */
+  --title-color: rgb(111, 66, 193);
+}
+*{
+  margin: 0;
+  padding: 0; 
+}
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--btn-color); /* Light gray background */
+}
+
+/* Navbar styling */
+.custom-nav {
+  background-color: var(--btn-color); /* Custom color */
+  border-radius: 5px; /* Smooth corners */
+  color: white;
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: white !important;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: white !important;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: var(--btn-hover-color);
+  text-decoration: underline;
+}
+
+/* Add shadow to navbar */
+.custom-nav.shadow {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Adjust padding for navbar */
+.navbar-toggler {
+  border-color: #ffffff;
+}
+
+.navbar-toggler-icon {
+  background-image: ();
+}
+
+/* Custom section styling */
+.custom-bg {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url('img/background.jpg') no-repeat center center/cover; /* Background image */
+  min-height: 60vh; /* Adjust height for visual appeal */
+  border-radius: 15px; /* Smooth corners */
+}
+
+.btn-primary {
+  background-color: var(--btn-color) !important;
+  border-color: var(--btn-color) !important;
+}
+
+.btn-primary:hover {
+  background-color: rgba(var(--btn-hover-color), 0.8) !important;
+  border-color: rgba(var(--btn-hover-color), 0.8) !important;
+}
+
+/* Services Section Styling */
+.service-box {
+  background-color: #ffffff;
+  border: 1px solid #ddd; /* Light border for separation */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 10px; /* Rounded corners */
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.service-box:hover {
+  transform: translateY(-5px); /* Hover effect to lift the box */
+}
+
+.service-title-1{
+  color:var(--title-color); /* Use your desired accent color */
+  font-weight: bold; 
+  font-size: 1.7rem;
+}
+.service-title {
+  color: var(--title-color); /* Use your desired accent color */
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.service-description {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .service-title {
+    font-size: 1.25rem; /* Slightly smaller title on mobile */
+  }
+  .service-description {
+    font-size: 0.95rem; /* Adjust text size for readability on smaller screens */
+  }
+}
+
+.carousel {
+  max-width: 90%;
+  margin: 0 auto;
+  height: auto;
+}
+
+.carousel-inner img {
+  width:  100%;
+  object-fit: cover;
+  max-height: 75vh;
+  border-radius: 15px;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.6); /* Add semi-transparent background */
+  border-radius: 10px;
+  padding: 15px;
+  color: white;
+  /* height: 50%; */
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+/* Features*/
+.card {
+  width: 100%;
+  border-radius: 15px; /* Slightly rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a modern look */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Lift card slightly on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Add stronger shadow on hover */
+}
+
+.card-title {
+  color: var(--btn-color); /* Custom accent color for card titles */
+}
+
+.card-text {
+  color: #555; /* Neutral text color */
+}
+
+.hover:hover{
+  background-color: plum !important;
+}
+
+/* Contact Section Styles */
+
+.container .bg-light {
+  background-color: #f8f9fa;
+}
+
+/* Footer Styles */
+footer {
+  background-color: var(--btn-color);
+  color: #f8f9fa;
+  border-radius: 5px;
+}
+
+footer h5 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+footer .bi {
+  font-size: 1.5rem;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
