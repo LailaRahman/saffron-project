@@ -21,6 +21,7 @@ body {
   background-color: var(--btn-color); /* Custom color */
   border-radius: 5px; /* Smooth corners */
   color: white;
+  margin: 0 10px;
   transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
 }
 
@@ -63,6 +64,7 @@ body {
 
 /* Custom section styling */
 .custom-bg {
+  margin: 10px;
   background: linear-gradient(
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
