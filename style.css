@@ -13,16 +13,16 @@ body, html {
 }
 
 body {
-  background-color: var(--btn-color); /* Light gray background */
+  background-color: var(--btn-color); 
 }
 
 /* Navbar styling */
 .custom-nav {
-  background-color: var(--btn-color); /* Custom color */
-  border-radius: 5px; /* Smooth corners */
+  background-color: var(--btn-color); 
+  border-radius: 5px;
   color: white;
   margin: 0 10px;
-  transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
+  transition: all 0.3s ease-in-out; 
 }
 
 .navbar-brand {
@@ -47,21 +47,15 @@ body {
   color: var(--btn-hover-color);
   text-decoration: underline;
 }
-
-/* Add shadow to navbar */
 .custom-nav.shadow {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
-/* Adjust padding for navbar */
 .navbar-toggler {
   border-color: #ffffff;
 }
-
 .navbar-toggler-icon {
   background-image: ();
 }
-
 /* Custom section styling */
 .custom-bg {
   margin: 10px;
@@ -69,9 +63,9 @@ body {
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
     ),
-    url('img/background.jpg') no-repeat center center/cover; /* Background image */
-  min-height: 60vh; /* Adjust height for visual appeal */
-  border-radius: 15px; /* Smooth corners */
+    url('img/background.jpg') no-repeat center center/cover;
+  min-height: 60vh; 
+  border-radius: 15px; 
 }
 
 .btn-primary {
@@ -87,24 +81,24 @@ body {
 /* Services Section Styling */
 .service-box {
   background-color: #ffffff;
-  border: 1px solid #ddd; /* Light border for separation */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  border-radius: 10px; /* Rounded corners */
+  border: 1px solid #ddd; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
   text-align: center;
   transition: transform 0.3s ease-in-out;
 }
 
 .service-box:hover {
-  transform: translateY(-5px); /* Hover effect to lift the box */
+  transform: translateY(-5px);
 }
 
 .service-title-1{
-  color:var(--title-color); /* Use your desired accent color */
+  color:var(--title-color); 
   font-weight: bold; 
   font-size: 1.7rem;
 }
 .service-title {
-  color: var(--title-color); /* Use your desired accent color */
+  color: var(--title-color);
   font-weight: bold;
   font-size: 1.5rem;
   margin-bottom: 15px;
@@ -118,10 +112,10 @@ body {
 /* Responsiveness */
 @media (max-width: 768px) {
   .service-title {
-    font-size: 1.25rem; /* Slightly smaller title on mobile */
+    font-size: 1.25rem; 
   }
   .service-description {
-    font-size: 0.95rem; /* Adjust text size for readability on smaller screens */
+    font-size: 0.95rem; 
   }
 }
 
@@ -139,7 +133,7 @@ body {
 }
 
 .carousel-caption {
-  background-color: rgba(0, 0, 0, 0.6); /* Add semi-transparent background */
+  background-color: rgba(0, 0, 0, 0.6); 
   border-radius: 10px;
   padding: 15px;
   color: white;
@@ -153,22 +147,21 @@ body {
 /* Features*/
 .card {
   width: 100%;
-  border-radius: 15px; /* Slightly rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a modern look */
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
-  transform: translateY(-5px); /* Lift card slightly on hover */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Add stronger shadow on hover */
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 .card-title {
-  color: var(--btn-color); /* Custom accent color for card titles */
+  color: var(--btn-color); 
 }
-
 .card-text {
-  color: #555; /* Neutral text color */
+  color: #555;
 }
 
 .hover:hover{
@@ -176,11 +169,9 @@ body {
 }
 
 /* Contact Section Styles */
-
 .container .bg-light {
   background-color: #f8f9fa;
 }
-
 /* Footer Styles */
 footer {
   background-color: var(--btn-color);
